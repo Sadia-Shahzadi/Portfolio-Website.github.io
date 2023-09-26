@@ -1,0 +1,87 @@
+/* Google Font  */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@600;700&display=swap");
+
+/* Custom CSS  */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  list-style: none;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+}
+::selection {
+  color: black;
+  background-color: #bea060;
+}
+header {
+  width: 100%;
+  height: 160vh;
+  background-color: black;
+  display: flex;
+}
+.header-left-side {
+  padding: 0 0 0 90px;
+  color: white;
+}
+.header-left-side h1 {
+  color: #bea060;
+  line-height: 1.2em;
+  font-size: 78px;
+  padding-top: 20px;
+  margin-bottom: 20px;
+  font-weight: 400 !important;
+}
+.header-left-side h2 {
+  color: #bea060;
+  font-family: "Inter", sans-serif;
+  font-size: 26px;
+  line-height: 1.2em;
+  font-weight: 500;
+  letter-spacing: 2px;
+  padding: 10px;
+}
+.header-left-side p {
+  margin-top: 5%;
+  margin-bottom: 10%;
+  font-family: "Inter", sans-serif;
+  letter-spacing: 2px;
+  font-size: 16px;
+  color: #c1bfbf;
+  line-height: 2;
+}
+button {
+  padding: 20px 10px;
+  border: 2px solid #bea060;
+  background: transparent;
+  width: 47%;
+  color: white;
+  margin-right: 15px;
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #bea060;
+  transition: 0.7s;
+}
+.btn {
+  width: 97%;
+  background-color: #bea060;
+}
+.header-left-side h3 {
+  color: #c1bfbf;
+  padding-top: 80px;
+  font-family: "Inter", sans-serif;
+  font-weight: 300;
+}
+.header-right-side img {
+  width: 670px;
+  height: 884px;
+  margin-top: 15%;
+}
